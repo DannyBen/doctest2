@@ -1,1 +1,4 @@
-remote_theme: jekyll/minima
+# Enable this if you want to use a compeltely custom theme
+# This points to a Jekyll theme on GitHub
+
+# remote_theme: jekyll/minima

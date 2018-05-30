@@ -1,4 +1,4 @@
-Documentation Home (README.md)
+Documentation Home (index.md)
 ==================================================
 
 Option 1

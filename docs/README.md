@@ -10,10 +10,10 @@ Compact job server with API, CLI, Web UI and a Sidekiq heart.
 <img src='/assets/logo.svg' width=300>
 
 3
-![](assets/logo.svg
+![3](assets/logo.svg)
 
 4
-![](/assets/logo.svg
+![4](/assets/logo.svg)
 
 ---
 

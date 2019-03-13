@@ -21,8 +21,8 @@ Compact job server with API, CLI, Web UI and a Sidekiq heart.
 ---
 
 <table><tr>
-  <td width='50%'><a target='_screenshot' href='demo/terminal.gif'><img src='/demo/terminal.gif'/></a></td>
-  <td width='50%'><a target='_screenshot' href='demo/screen.gif'><img src='/demo/screen.gif'/></a></td>
+  <td width='50%'><a target='_screenshot' href='demo/terminal.gif'><img src='demo/terminal.gif'/></a></td>
+  <td width='50%'><a target='_screenshot' href='demo/screen.gif'><img src='demo/screen.gif'/></a></td>
 </tr></table>
 
 ---

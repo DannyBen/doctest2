@@ -170,7 +170,7 @@ Note that these classes are simply Jobly-flavored sidekiq jobs, with these
 key differences:
 
 - You need to implement `execute` instead of `perform`
-- Job arguments are defined as keyword arguments, instead of positional 
+- Job arguments are defined as keyword arguments, instead of positional
   arguments.
 
 #### Job Options

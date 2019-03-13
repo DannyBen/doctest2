@@ -1,4 +1,4 @@
-How to use this example
+Minimal Example
 ==================================================
 
 [Download the examples folder](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DannyBen/jobly/tree/master/examples)

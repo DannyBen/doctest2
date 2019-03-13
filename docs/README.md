@@ -4,10 +4,13 @@ Jobly
 Compact job server with API, CLI, Web UI and a Sidekiq heart.
 
 1
-<img src='assets/logo.svg' width=300>
+<img src='../assets/logo.svg'>
+
+1.5
+<img src='assets/logo.svg'>
 
 2
-<img src='/assets/logo.svg' width=300>
+<img src='/assets/logo.svg'>
 
 3
 ![3](assets/logo.svg)

@@ -4,25 +4,25 @@ Jobly
 Compact job server with API, CLI, Web UI and a Sidekiq heart.
 
 1
-<img src='../docs/assets/logo.svg'>
+<img src='../assets/logo.svg'>
 
 2
-<img src='docs/assets/logo.svg'>
+<img src='assets/logo.svg'>
 
 3
-<img src='/docs/assets/logo.svg'>
+<img src='/assets/logo.svg'>
 
 4
-![3](docs/assets/logo.svg)
+![3](assets/logo.svg)
 
 5
-![4](/docs/assets/logo.svg)
+![4](/assets/logo.svg)
 
 ---
 
 <table><tr>
-  <td width='50%'><a target='_screenshot' href='/demo/terminal.gif'><img src='/demo/terminal.gif'/></a></td>
-  <td width='50%'><a target='_screenshot' href='/demo/screen.gif'><img src='/demo/screen.gif'/></a></td>
+  <td width='50%'><a target='_screenshot' href='demo/terminal.gif'><img src='/demo/terminal.gif'/></a></td>
+  <td width='50%'><a target='_screenshot' href='demo/screen.gif'><img src='/demo/screen.gif'/></a></td>
 </tr></table>
 
 ---

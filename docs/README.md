@@ -1,17 +1,19 @@
-<div align='center'>
-
-<img src='/assets/logo.svg' width=300>
-
 Jobly
 ==================================================
 
 Compact job server with API, CLI, Web UI and a Sidekiq heart.
 
-[![Gem Version](https://badge.fury.io/rb/jobly.svg)](https://badge.fury.io/rb/jobly)
-[![Build Status](https://travis-ci.com/DannyBen/jobly.svg?branch=master)](https://travis-ci.com/DannyBen/jobly)
-[![Maintainability](https://api.codeclimate.com/v1/badges/b3932ebd153d831583e2/maintainability)](https://codeclimate.com/github/DannyBen/jobly/maintainability)
+1
+<img src='assets/logo.svg' width=300>
 
-</div>
+2
+<img src='/assets/logo.svg' width=300>
+
+3
+![](assets/logo.svg
+
+4
+![](/assets/logo.svg
 
 ---
 

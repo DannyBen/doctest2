@@ -3,4 +3,4 @@
 # show_downloads: true
 # google_analytics:
 # logo: /assets/logo.png
-theme: jekyll-theme-minimal
+remote_theme: dannyben/jekyll-theme-proxima

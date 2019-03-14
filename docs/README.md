@@ -2,8 +2,6 @@
 
 Compact job server with API, CLI, Web UI and a Sidekiq heart.
 
-![](.gitbook/assets/terminal%20%281%29.gif)
-
 ## Installation
 
 ```text

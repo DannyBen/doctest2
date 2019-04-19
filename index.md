@@ -13,4 +13,4 @@ title: Open Source Projects by @DannyBen
 
 # Hello 3
 
-Testing github pages
+Testing github pages using the default, markdown-only theme

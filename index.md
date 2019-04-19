@@ -1,5 +1,5 @@
 ---
-layout: false
+layout: page
 title: Open Source Projects by @DannyBen
 ---
 

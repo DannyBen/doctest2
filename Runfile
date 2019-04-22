@@ -6,12 +6,16 @@ action :serve, :s do
   run! "bundle exec jekyll serve -H 0.0.0.0 -P 3000 --force-polling"
 end
 
-action :generate, :g do
+usage "(generate|g) [--debug]"
+option "-d, --debug", "Generate the first one only"
+action :generate, :g do |args|
   template = File.read '_src/repo-template.html'
+
+  index = []
 
   repos_by_tag.each do |tag, repos|
     # Generate YAML file
-    filename = "_data/#{tag}.yml"
+    filename = "_data/repos/#{tag}.yml"
     File.write filename, repos.to_yaml
     say "saved !txtgrn!#{filename}"
 
@@ -21,6 +25,20 @@ action :generate, :g do
     File.write filename, content
     say "saved !txtgrn!#{filename}"
 
-    break
+    # Collect data for index.yml
+    index << { 'tag' => tag, 'tag_name' => tags[tag], 'count' => repos.count }
+
+    break if args['--debug']
   end
+
+  # Tag names data file
+  FileUtils.cp '_src/tags.yml', '_data/tags.yml'
+  say "copied tags.yml to !txtgrn!_data/tags.yml"
+
+  # Index data file
+  filename = "_data/index.yml"
+  File.write filename, index.to_yaml
+  say "saved !txtgrn!#{filename}"
+
+
 end

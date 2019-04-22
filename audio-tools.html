@@ -1,0 +1,24 @@
+---
+title: Audio Tools
+layout: default
+---
+
+<h1>Audio Tools</h1>
+
+<div class="container-lg gutter-condensed clearfix">
+  {% for repo in site.data.audio-tools %}
+    <div class="col-sm-12 col-md-4 float-left mb-3">
+      <div class='border p-3 rounded-2'>
+        <a href="https://github.com/DannyBen/{{ repo.key }}">
+          {{ repo.name }}
+        </a>
+        <p>{{ repo.summary }}</p>
+        <p>
+          {% for tag in repo.tags %}
+            <a href="#">{{ tag }}</a>
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

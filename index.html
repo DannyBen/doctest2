@@ -3,6 +3,35 @@ title: PAGE TITLE
 layout: default
 ---
 
+<div class="container-lg clearfix">
+  <div class="col-sm-6 col-md-3 col-lg-2 float-left p-2 border">
+    .col-sm-6 .col-md-3 .col-lg-2
+  </div>
+  <div class="col-sm-6 col-md-3 col-lg-2 float-left p-2 border">
+    .col-sm-6 .col-md-3 .col-lg-2
+  </div>
+  <div class="col-sm-6 col-md-3 col-lg-2 float-left p-2 border">
+    .col-sm-6 .col-md-3 .col-lg-2
+  </div>
+  <div class="col-sm-6 col-md-3 col-lg-2 float-left p-2 border">
+    .col-sm-6 .col-md-3 .col-lg-2
+  </div>
+  <div class="col-sm-6 col-md-3 col-lg-2 float-left p-2 border">
+    .col-sm-6 .col-md-3 .col-lg-2
+  </div>
+  <div class="col-sm-6 col-md-3 col-lg-2 float-left p-2 border">
+    .col-sm-6 .col-md-3 .col-lg-2
+  </div>
+</div>
+
+<ul>
+  {% for repo in site.data.repos %}
+    <li>
+      {{ repo.name }}
+    </li>
+  {% endfor %}
+</ul>
+
 
 <h2>Hello H2</h2>
 

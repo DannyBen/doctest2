@@ -1,0 +1,26 @@
+require_relative '_src/app'
+
+title   "My GitHub"
+
+action :serve, :s do
+  run! "bundle exec jekyll serve -H 0.0.0.0 -P 3000 --force-polling"
+end
+
+action :generate, :g do
+  template = File.read '_src/repo-template.html'
+
+  repos_by_tag.each do |tag, repos|
+    # Generate YAML file
+    filename = "_data/#{tag}.yml"
+    File.write filename, repos.to_yaml
+    say "saved !txtgrn!#{filename}"
+
+    # Generate HTML file
+    filename = "#{tag}.html"
+    content = template % { tag: tag, tag_name: tags[tag] }
+    File.write filename, content
+    say "saved !txtgrn!#{filename}"
+
+    break
+  end
+end
